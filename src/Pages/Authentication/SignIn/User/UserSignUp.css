@@ -1,0 +1,65 @@
+.user-signup-container {
+  padding: 0 30px;
+  margin-top: 1rem;
+}
+
+.user-signup-container .card-container {
+  max-width: 810px;
+}
+
+.user-signup-container .esu-desc {
+  margin-bottom: 2rem;
+}
+
+.user-signup-container .esu-sbt-container button {
+  width: 100%;
+}
+
+.user-signup-container .google-holder {
+  margin: 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .user-signup-container .esu-sbt-container-inner {
+    margin: 0 auto;
+  }
+
+  .user-signup-container .lb-holder-google {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .user-signup-container .esu-field-container .fields-container {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .user-signup-container .esu-field-container label {
+    margin-bottom: 1rem;
+  }
+
+  .user-signup-container .esu-field-container input {
+    width: 100%;
+  }
+
+  .user-signup-container .esu-contact-number {
+    width: 100%;
+  }
+
+  .user-signup-container .esu-field-container {
+    padding-bottom: 2rem;
+  }
+
+  .user-signup-container .esu-sbt-container-inner {
+    width: 100%;
+  }
+
+  .user-signup-container {
+    padding: 0 15px;
+  }
+
+  .user-signup-container .tac {
+    align-items: flex-start;
+  }
+}

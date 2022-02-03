@@ -1,0 +1,168 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #f4f8f9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header-logo img {
+  height: 55px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0;
+  max-width: calc(100% - 108px);
+  margin: 0 auto;
+  align-items: center;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #33d2ae;
+}
+
+.login-form-container h1 {
+  font-size: 36px;
+}
+
+.card-container {
+  padding: 30px 95px;
+  max-width: 875px;
+  width: 100%;
+  background: white;
+  margin: 0 auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 2px 45px 0px rgb(238 238 238);
+  -moz-box-shadow: 0px 2px 45px 0px rgba(238, 238, 238, 1);
+  box-shadow: 0px 2px 45px 0px rgb(238 238 238);
+  margin-bottom: 45px;
+  padding-bottom: 100px;
+}
+
+.login-form-container {
+  padding: 0 30px;
+  margin-top: 1rem;
+}
+
+.login-form-fields .input-group {
+  display: flex;
+  margin-bottom: 50px;
+  width: 100%;
+  align-items: center;
+}
+
+.login-form-fields label {
+  font-size: 20px;
+  width: 225px;
+  display: block;
+}
+
+.login-form-fields input {
+  width: calc(100% - 225px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  height: 50px;
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.lf-inner-container {
+  margin: 0 25px;
+  margin-top: 75px;
+}
+
+.login-form-fields {
+  border-bottom: 1px solid #ced4da;
+}
+
+.login-btn button {
+  background-color: aliceblue;
+  background-image: linear-gradient(135deg, #0ac4ba 0%, #2bda8e 100%);
+  border: 0px;
+  padding: 15px;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  cursor: pointer;
+}
+
+.login-btn {
+  text-align: end;
+}
+
+.login-form-fields {
+  margin-bottom: 50px;
+}
+
+.lb-holder {
+  width: calc(100% - 225px);
+  margin-left: auto;
+}
+
+.lb-holder p {
+  color: #33d2ae;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    display: block;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .header-nav {
+    margin-top: 1rem;
+  }
+
+  .card-container {
+    padding: 30px 20px;
+  }
+
+  .login-form-fields .input-group {
+    display: block;
+    margin-bottom: 25px;
+  }
+
+  .login-form-fields input {
+    width: 100%;
+  }
+
+  .login-form-fields label {
+    margin-bottom: 1rem;
+  }
+
+  .lb-holder {
+    margin: auto;
+    max-width: 290px;
+    width: 100%;
+  }
+
+  .lf-inner-container {
+    margin: 0 10px;
+  }
+
+  .login-form-container {
+    padding: 0 20px;
+  }
+
+  .login-form-container h1 {
+    font-size: 30px;
+    margin-bottom: 3rem;
+  }
+}
