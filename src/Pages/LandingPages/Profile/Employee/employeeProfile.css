@@ -1,0 +1,185 @@
+.ep-container {
+  max-width: 960px;
+  width: 100%;
+  margin: 80px auto 0;
+}
+
+.ep-container-inner {
+  background: #fff;
+  padding: 50px 20px;
+  margin: 0 30px;
+  box-shadow: 0px 2px 45px 0px rgb(238 238 238);
+}
+
+.header.ep-head {
+  background-color: white;
+}
+
+.ep-img img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 15px;
+}
+
+.ep-info-text {
+  color: #989898;
+  font-family: "Roboto", sans-serif;
+}
+
+.ep-info-text span {
+  margin-left: 15px;
+}
+
+.ep-verified-user p {
+  font-weight: 700;
+  color: #989898;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serift;
+  margin: 0;
+}
+
+.ep-info-right .upload-image {
+  color: #33d2ae;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.ep-edit-profile {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  line-height: 33px;
+  border: 1px solid #15cbaa;
+  background: none;
+  border-radius: 5px;
+  color: #15cbaa;
+  height: 44px;
+  width: 165px;
+  font-size: 16px;
+  margin-top: 36px;
+  cursor: pointer;
+}
+
+.ep-info h1 {
+  font-size: 40px;
+  color: #323c47;
+  margin: 0;
+}
+
+.ep-head-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ep-info {
+  width: 45%;
+}
+
+.ep-info-right {
+  padding-right: 25px;
+}
+
+.profile-main h4 {
+  font-family: "Montserrat" !important;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.profile-main {
+  padding: 0 36px;
+}
+
+.pm-skill {
+  background: #f0f0f0;
+  color: #323c47;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 8px 20px;
+  border-radius: 4px;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.ep-about-me,
+.ep-skills,
+.ep-jobs-rating,
+.ep-portfolio-pictures {
+  margin-top: 60px;
+}
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table_greycell {
+  color: #989898;
+  font-weight: bold;
+  font-size: 14px;
+  border: 0px !important;
+}
+
+.table_blackcell {
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  border: 0px !important;
+}
+
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: top;
+}
+
+.table {
+  width: 100%;
+}
+
+.jobs-rating-text {
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  .ep-head-container {
+    display: block;
+    text-align: center;
+  }
+
+  .ep-info {
+    width: 100%;
+    margin: 2rem 0;
+  }
+
+  .ep-info-right {
+    padding-right: 0px;
+  }
+
+  .ep-about-me,
+  .ep-skills,
+  .ep-jobs-rating,
+  .ep-portfolio-pictures {
+    text-align: center;
+  }
+
+  .profile-main {
+    padding: 0 0px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .ep-container-inner {
+    margin: 0 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}

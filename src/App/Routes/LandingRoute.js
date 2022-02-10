@@ -8,6 +8,7 @@ import {
   UserSignUp,
   EmployerSignUp,
   ForgotPassword,
+  EmployeeProfile,
 } from "../../Pages";
 import { AuthRequired } from "./components";
 
@@ -23,6 +24,9 @@ export const LandingRoute = () => {
       <Route path={"user/login"} element={<UserSignIn />} />
       <Route path={"user/forgot_password"} element={<ForgotPassword />} />
       <Route path={"user/signup"} element={<UserSignUp />} />
+
+      {/* Profile */}
+      <Route path={"profile"} element={<EmployeeProfile />} />
 
       {/* jobs */}
       <Route path={"jobs"} element={<Jobs />}></Route>
