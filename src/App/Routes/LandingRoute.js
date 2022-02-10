@@ -10,6 +10,7 @@ import {
   ForgotPassword,
   EmployeeProfile,
   EmployerProfile,
+  UserEditProfile,
 } from "../../Pages";
 import { AuthRequired } from "./components";
 
@@ -28,6 +29,7 @@ export const LandingRoute = () => {
 
       {/* Profile */}
       <Route path={"profile"} element={<EmployeeProfile />} />
+      <Route path={"employee/update_profile"} element={<UserEditProfile />} />
 
       {/* Company */}
       <Route path={"company"} element={<EmployerProfile />} />
