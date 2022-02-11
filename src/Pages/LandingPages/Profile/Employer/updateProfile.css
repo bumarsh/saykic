@@ -1,0 +1,204 @@
+.up-cover-image {
+  height: 35vh;
+  background-image: url("../../../../Assets/bg-masthead.jpeg");
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+}
+
+.up-container {
+  max-width: 960px;
+  width: 100%;
+  margin: -150px auto 0;
+}
+
+.up-container-inner {
+  -webkit-box-shadow: 0px 2px 45px 0px rgb(238 238 238);
+  -moz-box-shadow: 0px 2px 45px 0px rgba(238, 238, 238, 1);
+  box-shadow: 0px 2px 45px 0px rgb(238 238 238);
+  background: white;
+  padding: 50px 20px;
+}
+
+.up-holder-logo img {
+  max-width: 100%;
+  border-radius: 50%;
+  border: 1px solid #ededed;
+  width: 150px;
+  height: 150px;
+}
+
+.up-holder-logo svg {
+  color: #33d2ae;
+  position: absolute;
+  top: 0;
+}
+
+.up-remove-image {
+  text-decoration: none;
+  color: red;
+  display: block;
+}
+
+.naming-profile h1 {
+  font-size: 40px;
+  color: #323c47;
+}
+
+.up-holder-logo {
+  position: relative;
+  width: fit-content;
+  text-align: center;
+}
+
+.up-top {
+  display: flex;
+  padding: 0px 30px;
+}
+
+.naming-profile h1 {
+  margin-top: 0;
+  margin-left: 60px;
+  width: 100%;
+  max-width: 250px;
+}
+
+.up-about-us,
+.up-location,
+.up-company-pictures,
+.up-add-video {
+  margin-top: 60px;
+}
+
+.up-about-us h4,
+.up-location h4,
+.up-company-pictures h4,
+.up-add-video h4 {
+  font-family: "Montserrat" !important;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.up-main {
+  padding: 36px;
+}
+
+.up-label {
+  display: block;
+  margin-top: 25px;
+  color: #989898;
+  font-size: 15px;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.up-main input {
+  width: 100%;
+  height: 59px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.up-ci {
+  display: flex;
+}
+
+.up-ci select {
+  width: 92%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  color: #989898;
+}
+
+.up-ci select option {
+  padding: 0px 2px 1px;
+}
+
+.up-ci > div {
+  width: 100%;
+}
+
+.up-drop-zone {
+  cursor: pointer;
+  min-height: 260px !important;
+  width: 100% !important;
+  margin: 0 auto;
+  border: 3px dashed #247bbb;
+  background: white;
+  padding: 20px 20px;
+}
+
+.dropzone {
+  height: 100%;
+}
+
+.up-save-button {
+  background-color: aliceblue;
+  background-image: linear-gradient(135deg, #0ac4ba 0%, #2bda8e 100%);
+  border: 0px;
+  color: white;
+  font-weight: 500;
+  padding: 15px;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.up-btn-holder {
+  text-align: end;
+  position: relative;
+  top: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+  .up-container {
+    padding: 0 30px;
+  }
+
+  .up-top {
+    display: block;
+  }
+
+  .up-holder-logo {
+    margin: 0 auto;
+  }
+
+  .naming-profile h1 {
+    max-width: fit-content;
+    margin: 2rem 0 auto;
+    margin: 2rem auto auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 567px) {
+  .up-main {
+    padding: 36px 10px;
+  }
+
+  .up-container {
+    padding: 0 10px;
+  }
+  .up-container-inner {
+    padding: 50px 10px;
+  }
+
+  .up-ci {
+    flex-wrap: wrap;
+  }
+
+  .up-ci select {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}
