@@ -1,0 +1,68 @@
+.disabled-bg {
+  background-color: #e9ecef;
+}
+
+.form-group > div {
+  width: 40%;
+  display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+  .personal-info {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .ep-update-info {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .ep-update-nav,
+  .ep-update-info {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .personal-info {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form-input {
+    width: 100%;
+  }
+
+  .field-title {
+    width: 100%;
+  }
+
+  .save {
+    width: 100%;
+  }
+
+  .form-group > div {
+    width: 100%;
+  }
+
+  .form-group {
+    display: block;
+  }
+  .ep-update-info {
+    padding: 45px 20px;
+  }
+
+  .field-title {
+    margin-right: 10px;
+  }
+
+  .personal-info {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}

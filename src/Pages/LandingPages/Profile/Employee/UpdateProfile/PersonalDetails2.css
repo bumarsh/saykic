@@ -1,0 +1,101 @@
+.form-group .pd-2-profile {
+  display: flex;
+  align-items: flex-start;
+  width: auto;
+}
+
+.pd2-drop-zone {
+  cursor: pointer;
+  min-height: 260px !important;
+  width: 100% !important;
+  margin: 0 auto;
+  border: 3px dashed #247bbb;
+  background: white;
+  padding: 20px 20px;
+  display: block !important;
+}
+
+.form-group .pd2-add-video {
+  width: 40%;
+  display: block;
+}
+
+.form-group .pd2-drop-zone-container {
+  display: block;
+  width: 65%;
+}
+
+.pd2-add-video > input {
+  width: 100%;
+}
+
+.pd-2-paste {
+  color: #6c757d !important;
+  margin-top: 0.25rem;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.pd-2-reminder-green {
+  color: #28a745;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.pd-2-back {
+  margin-right: 1.5rem;
+}
+
+.pd-2-back:hover {
+  margin-right: 1.5rem;
+}
+
+.input-tag-field {
+  width: 65%;
+}
+
+.pd-2-reminder-red {
+  color: #d0021b;
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+  .form-group .pd2-add-video {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .input-tag-field {
+    width: 100%;
+  }
+
+  .form-group .pd2-drop-zone-container {
+    width: 100%;
+  }
+  .form-group .pd2-add-video {
+    width: 100%;
+  }
+  .pd-2-back {
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .pd-2-profile {
+    flex-direction: column;
+  }
+
+  .remove-pp {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}

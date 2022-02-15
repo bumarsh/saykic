@@ -1,0 +1,128 @@
+/* RADIO BUTTON */
+.as-radio-buttons {
+  flex-flow: column;
+}
+
+.as-radio-buttons input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.as-radio-buttons .checkRound {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+}
+
+.as-radio-buttons .radios_label {
+  display: inline-block;
+  width: auto !important;
+  color: #989898;
+  font-weight: normal;
+  font-size: 17px;
+  padding-top: 3px;
+
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.as-radio-buttons .radio input:checked ~ .checkRound:after {
+  display: block;
+}
+
+.as-radio-buttons .radio .checkRound:after {
+  left: 2px;
+  top: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #18cbab;
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.as-btn {
+  width: 40%;
+}
+
+.as-back {
+  width: 30%;
+}
+
+.as-number-holder {
+  width: 40%;
+}
+
+.as-number-left {
+  width: 35%;
+}
+
+.as-number-right {
+  width: 65%;
+}
+
+.as-change-password {
+  width: 40%;
+  margin-bottom: 60;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  .as-btn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .as-back {
+    width: 100%;
+  }
+
+  .as-change-password {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ep-personal-title {
+    font-size: 28px;
+  }
+
+  .as-number-left {
+    width: 100%;
+  }
+
+  .as-number-right {
+    width: 100%;
+  }
+
+  .as-number-holder {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .as-number-holder > input {
+    margin-bottom: 1rem;
+  }
+}
