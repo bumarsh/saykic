@@ -45,7 +45,7 @@ export const UpdateProfile = () => {
               <p className="up-label">Website Url*</p>
               <input type="text" />
 
-              <div class="up-ci">
+              <div className="up-ci">
                 <div>
                   <p className="up-label">Company Size*</p>
                   <select>

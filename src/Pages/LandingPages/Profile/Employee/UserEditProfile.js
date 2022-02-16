@@ -7,7 +7,7 @@ import PersonalDetails2 from "./UpdateProfile/PersonalDetails2";
 import AccountSettingsPayment from "./UpdateProfile/AccountSettingsPayment";
 
 export const UserEditProfile = () => {
-  const [active, setActive] = useState(3);
+  const [active, setActive] = useState(1);
 
   const activePage = () => {
     switch (active) {
@@ -75,15 +75,6 @@ export const UserEditProfile = () => {
         </div>
 
         {activePage()}
-
-        {/* PERSONAL DETAILS (2/2) */}
-        {/* <div className="ep-update-nav">
-          <p className="ep-update ep-update-active">Personal Info</p>
-          <p className="ep-update ep-update-active">Personal Details (1/2)</p>
-          <p className="ep-update ep-update-active">Personal Details (2/2)</p>
-          <p className="ep-update">Account Settings/Payment</p>
-        </div>
-        */}
       </div>
     </div>
   );

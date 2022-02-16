@@ -51,6 +51,19 @@
   display: block;
 }
 
+.pd-1-bg {
+  background-color: #e9ecef;
+}
+
+.pd-1-required {
+  color: red;
+}
+
+.pd-1-note {
+  color: #6c757d;
+  font-size: 12px;
+}
+
 .pd-1-radio-buttons .radio .checkRound:after {
   left: 2px;
   top: 2px;

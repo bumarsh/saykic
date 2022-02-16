@@ -7,6 +7,22 @@
   display: flex;
 }
 
+.pi-required {
+  color: red;
+}
+
+.pi-input-75 {
+  width: 75%;
+}
+
+.pi-input-25 {
+  width: 25%;
+}
+
+.pi-mrgn-rght {
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 1200px) {
   .personal-info {
     width: 90%;

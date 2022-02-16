@@ -14,13 +14,12 @@ export default function PersonalDetails1() {
           <p className="field-title">Cidekick Account</p>
           <div className="pd1-form-holder">
             <input
-              className="form-input"
+              className="form-input pd-1-bg"
               type="text"
               value="Malaysia"
               disabled
-              style={{ backgroundColor: "#e9ecef" }}
             />
-            <p style={{ color: "#6c757d", fontSize: 12 }}>
+            <p className="pd-1-note">
               This is the country based on your phone numbers. And can not be
               changed
             </p>
@@ -28,20 +27,20 @@ export default function PersonalDetails1() {
         </div>
         <div className="form-group">
           <p className="field-title">
-            Current State <span style={{ color: "Red" }}>*</span>
+            Current State <span className="pd-1-required">*</span>
           </p>
           <div className="pd1-form-holder">
             <select className="form-input" style={{ width: "100%" }}>
               <option>Select State</option>
             </select>
-            <p style={{ color: "#6c757d", fontSize: 12, width: "auto" }}>
+            <p className="pd-1-note" style={{ width: "auto" }}>
               Please select the state and you will see the cities of it bottom
             </p>
           </div>
         </div>
         <div className="form-group">
           <p className="field-title">
-            City <span style={{ color: "Red" }}>*</span>
+            City <span className="pd-1-required">*</span>
           </p>
           <select className="form-input">
             <option>Bukit Bintang</option>
@@ -53,13 +52,13 @@ export default function PersonalDetails1() {
         </div>
         <div className="form-group">
           <p className="field-title">
-            Name to be displayed <span style={{ color: "Red" }}>*</span>
+            Name to be displayed <span className="pd-1-required">*</span>
           </p>
           <input className="form-input" type="text" />
         </div>
         <div className="form-group">
           <p className="field-title">
-            Nationality <span style={{ color: "Red" }}>*</span>
+            Nationality <span className="pd-1-required">*</span>
           </p>
           <input className="form-input" type="text" />
         </div>
@@ -74,7 +73,7 @@ export default function PersonalDetails1() {
                 name="own-transport"
                 value="Yes"
               />
-              <span class="checkRound"></span>
+              <span className="checkRound"></span>
             </label>
             <label className="radio radios_label">
               No
@@ -84,7 +83,7 @@ export default function PersonalDetails1() {
                 name="own-transport"
                 value="No"
               />
-              <span class="checkRound"></span>
+              <span className="checkRound"></span>
             </label>
           </div>
         </div>
@@ -99,7 +98,7 @@ export default function PersonalDetails1() {
                 name="own-transport"
                 value="Yes"
               />
-              <span class="checkRound"></span>
+              <span className="checkRound"></span>
             </label>
             <label className="radio radios_label">
               Female
@@ -109,7 +108,7 @@ export default function PersonalDetails1() {
                 name="own-transport"
                 value="No"
               />
-              <span class="checkRound"></span>
+              <span className="checkRound"></span>
             </label>
           </div>
         </div>
@@ -123,7 +122,7 @@ export default function PersonalDetails1() {
         </div>
         <div className="form-group">
           <p className="field-title">
-            Date of Birth <span style={{ color: "Red" }}>*</span>
+            Date of Birth <span className="pd-1-required">*</span>
           </p>
           <div className="dob-pd1">
             <select className="form-input form-date">

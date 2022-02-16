@@ -62,38 +62,38 @@ export const EmployeeProfile = () => {
             <div className="ep-skills">
               <h4>Personal Details</h4>
 
-              <div class="table-responsive">
-                <table class="table">
+              <div className="table-responsive">
+                <table className="table">
                   <tbody>
                     <tr>
-                      <td class="table_greycell">Gender</td>
-                      <td class="table_blackcell">male</td>
-                      <td class="table_greycell">Age</td>
-                      <td class="table_blackcell">24</td>
+                      <td className="table_greycell">Gender</td>
+                      <td className="table_blackcell">male</td>
+                      <td className="table_greycell">Age</td>
+                      <td className="table_blackcell">24</td>
                     </tr>
                     <tr>
-                      <td class="table_greycell">Height (cm)</td>
-                      <td class="table_blackcell">0</td>
-                      <td class="table_greycell">Weight (kg)</td>
-                      <td class="table_blackcell">0</td>
+                      <td className="table_greycell">Height (cm)</td>
+                      <td className="table_blackcell">0</td>
+                      <td className="table_greycell">Weight (kg)</td>
+                      <td className="table_blackcell">0</td>
                     </tr>
                     <tr>
-                      <td class="table_greycell">Clothing Size</td>
-                      <td class="table_blackcell">XL</td>
-                      <td class="table_greycell">Bust</td>
-                      <td class="table_blackcell">0.0</td>
+                      <td className="table_greycell">Clothing Size</td>
+                      <td className="table_blackcell">XL</td>
+                      <td className="table_greycell">Bust</td>
+                      <td className="table_blackcell">0.0</td>
                     </tr>
                     <tr>
-                      <td class="table_greycell">Current Hair Color</td>
-                      <td class="table_blackcell">Black</td>
-                      <td class="table_greycell">Waist</td>
-                      <td class="table_blackcell">0.0</td>
+                      <td className="table_greycell">Current Hair Color</td>
+                      <td className="table_blackcell">Black</td>
+                      <td className="table_greycell">Waist</td>
+                      <td className="table_blackcell">0.0</td>
                     </tr>
                     <tr>
-                      <td class="table_greycell">Shoe Size</td>
-                      <td class="table_blackcell">2.0</td>
-                      <td class="table_greycell">Hips</td>
-                      <td class="table_blackcell">0.0</td>
+                      <td className="table_greycell">Shoe Size</td>
+                      <td className="table_blackcell">2.0</td>
+                      <td className="table_greycell">Hips</td>
+                      <td className="table_blackcell">0.0</td>
                     </tr>
                   </tbody>
                 </table>

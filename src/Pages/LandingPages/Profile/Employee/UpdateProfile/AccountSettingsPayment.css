@@ -41,6 +41,24 @@
   user-select: none;
 }
 
+.as-change-pass {
+  margin-top: 50px;
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 3rem;
+}
+
+.as-mrgn {
+  margin-top: 50px;
+}
+
+.as-required {
+  color: red;
+}
+
+.as-input-bg {
+  background-color: #e9ecef;
+}
+
 .as-radio-buttons .radio input:checked ~ .checkRound:after {
   display: block;
 }

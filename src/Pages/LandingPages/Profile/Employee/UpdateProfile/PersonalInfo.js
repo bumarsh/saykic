@@ -16,19 +16,14 @@ export const PersonalInfo = () => {
         <div className="form-group">
           <p className="field-title">Emergency Contact Number</p>
           <div>
-            <select
-              className="countryCodes"
-              type="text"
-              style={{ width: "25%" }}
-            >
+            <select className="countryCodes pi-input-25" type="text">
               <option>+63</option>
               <option>+12</option>
             </select>
             <input
               type="text"
-              className="form-input"
+              className="form-input pi-input-75"
               placeholder="e.g 12323121"
-              style={{ width: "75%" }}
             ></input>
           </div>
         </div>
@@ -38,7 +33,7 @@ export const PersonalInfo = () => {
         </div>
         <div className="form-group">
           <p className="field-title">
-            Name (As per IC )<span style={{ color: "red" }}>*</span>
+            Name (As per IC )<span className="pi-required">*</span>
           </p>
           <input className="form-input" type="text"></input>
         </div>
@@ -46,17 +41,15 @@ export const PersonalInfo = () => {
           <p className="field-title">Handphone no.</p>
           <div>
             <input
-              className="form-input disabled-bg"
+              className="form-input disabled-bg pi-input-25 pi-mrgn-rght"
               value="+63"
               type="text"
-              style={{ width: "25%", marginRight: "10px" }}
               disabled
             />
             <input
               type="text"
               value="9216442944"
-              className="form-input disabled-bg"
-              style={{ width: "75%" }}
+              className="form-input disabled-bg pi-input-75"
               placeholder="e.g 12323121"
               disabled
             ></input>
