@@ -13,7 +13,11 @@ export default function PersonalDetails2() {
         </p>
         <div className="form-group">
           <p className="field-title">Skill Set</p>
-          <input className="form-input input-tag-field" type="text"></input>
+          <input
+            className="form-input input-tag-field"
+            placeHolder="Enter Skill"
+            type="text"
+          ></input>
         </div>
         <div className="form-group">
           <p className="field-title">Profile Picture</p>
